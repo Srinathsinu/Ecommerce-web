@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>https://product page of craft market</title>
+    <style>
+       html{
+         scroll-behavior: smooth;
+       }
+        body{
+        margin: 0;
+        padding: 0;
+        background-color:rgb(255, 255, 255) ;
+      }
+      .navbar{
+        background-color: rgb(230, 240, 237);
+      }
+      .navbar-brand{
+        padding: 0;
+        margin: 0;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 2px;
+        color: rgb(214, 115, 49);
+
+      }
+      .nav-link{
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      .nav-link:hover{
+        transition: .3s;
+        transform: scale(1.1);
+      }
+      .navbar-toggler-icon .fa{
+        color: black;
+        padding: auto;
+        margin: auto;
+      }
+      #productx{
+        width: 85%;
+        margin: auto;
+        
+      }
+      
+      .product-img{
+          display: grid;
+          grid-template-rows: 280px 280px;
+          grid-template-columns: repeat(4, 1fr);
+          grid-gap: 30px;
+          justify-content: center;
+      }
+    
+      #div1{ background: url(https://images.pexels.com/photos/889839/pexels-photo-889839.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div2{background: url(https://images.pexels.com/photos/159862/art-school-of-athens-raphael-italian-painter-fresco-159862.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div3{background: url(https://images.pexels.com/photos/1209843/pexels-photo-1209843.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div4{background: url(https://images.pexels.com/photos/755858/pexels-photo-755858.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div5{background: url(https://images.pexels.com/photos/2766335/pexels-photo-2766335.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div6{background: url(https://images.pexels.com/photos/1447939/pexels-photo-1447939.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div7{background: url(https://images.pexels.com/photos/1099816/pexels-photo-1099816.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div8{background: url(https://images.pexels.com/photos/3607566/pexels-photo-3607566.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div9{ background: url(https://images.pexels.com/photos/204649/pexels-photo-204649.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div10{background: url(https://images.pexels.com/photos/4203067/pexels-photo-4203067.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div11{background: url(https://images.pexels.com/photos/1485630/pexels-photo-1485630.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div12{background: url(https://images.pexels.com/photos/134402/pexels-photo-134402.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div13{background: url(https://images.pexels.com/photos/4210805/pexels-photo-4210805.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div14{background: url(https://images.pexels.com/photos/3678375/pexels-photo-3678375.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div15{background: url(https://images.pexels.com/photos/3049121/pexels-photo-3049121.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div16{background: url(https://images.pexels.com/photos/3075988/pexels-photo-3075988.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div17{ background: url(https://images.pexels.com/photos/6332/coffee-cup-books-home.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div18{background: url(https://images.pexels.com/photos/1005058/pexels-photo-1005058.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div19{background: url(https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div20{background: url(https://images.pexels.com/photos/4226794/pexels-photo-4226794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div21{background: url(https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div22{background: url(https://images.pexels.com/photos/4618516/pexels-photo-4618516.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div23{background: url(https://images.pexels.com/photos/4071397/pexels-photo-4071397.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+      #div24{background: url(https://images.pexels.com/photos/4239009/pexels-photo-4239009.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);width: 310px; background-size: cover;}
+
+
+      .btn{
+       color: black;
+       font-size: 17px;
+       font-weight: 400;
+       margin-top: 220px;
+       margin-left: 120px;
+       padding-left: 20px;
+       padding-right: 20px;
+       background-color: rgba(31, 172, 177, 0.685);
+
+     }
+     .btn:hover{
+      background-color: rgb(57, 237, 243);
+      box-shadow:5px 10px 10px rgba(12, 12, 12, 0.7) ;
+      font-size: 19px;
+      font-weight: 500;
+     }
+      .pimage:hover{
+        transition: 1s;
+        transform: scale(1.08);
+        box-shadow:0 8px 19px rgba(0,0,0,0.4) ;
+        }
+        #view1{
+          margin-bottom: 2%;
+          margin-top: 1%;
+          margin-left: 43%;
+          padding:5px 10px;
+          font-size: 16px;
+          font-weight: 500;
+          background-color: rgb(207, 245, 233);
+          box-shadow: 0px 8px 8px rgba(12, 12, 12, 0.7);
+        }
+        #view1:hover{background-color:rgb(144, 247, 214) ;
+        }
+        @media (max-width: 768px){
+          html{scroll-behavior: smooth;}
+          body{
+            margin: 0;
+            padding: 0;
+          }
+
+        .product-img{
+              display: block;
+              justify-content: center;
+              
+            }
+            .product-img #div1{margin-bottom: 5%;}
+            .product-img #div2{margin-bottom: 5%;}
+            .product-img #div3{margin-bottom: 5%;}
+            .product-img #div4{margin-bottom: 5%;}
+            .product-img #div5{margin-bottom: 5%;}
+            .product-img #div6{margin-bottom: 5%;}
+            .product-img #div7{margin-bottom: 5%;}
+            .product-img #div8{margin-bottom: 5%;}
+            .product-img #div9{margin-bottom: 5%;}
+            .product-img #div10{margin-bottom: 5%;}
+            .product-img #div11{margin-bottom: 5%;}
+            .product-img #div12{margin-bottom: 5%;}
+            .product-img #div13{margin-bottom: 5%;}
+            .product-img #div14{margin-bottom: 5%;}
+            .product-img #div15{margin-bottom: 5%;}
+            .product-img #div16{margin-bottom: 5%;}
+            .product-img #div17{margin-bottom: 5%;}
+            .product-img #div18{margin-bottom: 5%;}
+            .product-img #div19{margin-bottom: 5%;}
+            .product-img #div20{margin-bottom: 5%;}
+            .product-img #div21{margin-bottom: 5%;}
+            .product-img #div22{margin-bottom: 5%;}
+            .product-img #div23{margin-bottom: 5%;}
+            .product-img #div24{margin-bottom: 5%;}
+            .product-img #div25{margin-bottom: 5%;}
+            
+        }
+        .footer{
+          width: 100%;
+          background-color: rgb(243, 186, 111);
+          text-align: center;
+        }
+        .text-footer{
+          font-size: 17px;
+          font-weight: 400;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg " style="position: sticky;top: 0;z-index: 1;">
+      <a class="navbar-brand ml-5" href="#">CRAFT MARKET</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: large; font-weight: 500;">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link mr-5" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-5" href="index.html">Features</a>
+          </li>
+          <li class="nav-item active" >
+              <a class="nav-link mr-5" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="loginregistration.html">Log in</a>
+            </li>
+        </ul>
+      </div>
+      
+    </nav>
+
+    <div class="Products" id="productx">
+      
+      <div class="product-img" >
+        <div class="pimage" id="div1">
+          <button type="button" class="btn "> BUY </button>
+        </div>
+        <div class="pimage" id="div2">
+          <button type="button" class="btn "> BUY </button>
+            </div>
+          <div class="pimage" id="div3">
+            <button type="button" class="btn "> BUY </button>
+            </div>
+          <div class="pimage" id="div4" >
+            <button type="button" class="btn "> BUY </button>
+            </div>
+          <div class="pimage" id="div5">
+            <button type="button" class="btn "> BUY </button>
+            </div>
+          <div class="pimage" id="div6">
+            <button type="button" class="btn "> BUY </button>
+            </div>
+          <div class="pimage" id="div7" >
+            <button type="button" class="btn "> BUY </button>
+            </div>
+          <div class="pimage" id="div8" >
+            <button type="button" class="btn "> BUY </button>
+            </div>
+            <div class="pimage" id="div9">
+              <button type="button" class="btn "> BUY </button>
+            </div>
+            <div class="pimage" id="div10">
+              <button type="button" class="btn "> BUY </button>
+                </div>
+              <div class="pimage" id="div11">
+                <button type="button" class="btn "> BUY </button>
+                </div>
+              <div class="pimage" id="div12" >
+                <button type="button" class="btn "> BUY </button>
+                </div>
+              <div class="pimage" id="div13">
+                <button type="button" class="btn "> BUY </button>
+                </div>
+              <div class="pimage" id="div14">
+                <button type="button" class="btn "> BUY </button>
+                </div>
+              <div class="pimage" id="div15" >
+                <button type="button" class="btn "> BUY </button>
+                </div>
+              <div class="pimage" id="div16" >
+                <button type="button" class="btn "> BUY </button>
+                </div>
+                <div class="pimage" id="div17">
+                  <button type="button" class="btn "> BUY </button>
+                </div>
+                <div class="pimage" id="div18">
+                  <button type="button" class="btn "> BUY </button>
+                    </div>
+                  <div class="pimage" id="div19">
+                    <button type="button" class="btn "> BUY </button>
+                    </div>
+                  <div class="pimage" id="div20" >
+                    <button type="button" class="btn "> BUY </button>
+                    </div>
+                  <div class="pimage" id="div21">
+                    <button type="button" class="btn "> BUY </button>
+                    </div>
+                  <div class="pimage" id="div22">
+                    <button type="button" class="btn "> BUY </button>
+                    </div>
+                  <div class="pimage" id="div23" >
+                    <button type="button" class="btn "> BUY </button>
+                    </div>
+                  <div class="pimage" id="div24" >
+                    <button type="button" class="btn "> BUY </button>
+                  </div>
+                  
+                    
+      </div>
+    </div>
+    
+</div>
+<div class="footer"><i class="text-footer">copyright &copy; 2020<br>
+  Design & Developement By:-SRINATH SHITIKANTHA</i></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
